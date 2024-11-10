@@ -1,10 +1,9 @@
-
 import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
     <div>
-      <main className="container">
+      <div className="container">
         <h1>Contact Me</h1>
         <p>If you'd like to get in touch, feel free to reach out through the form below!</p>
         <form>
@@ -22,7 +21,7 @@ const Contact = () => {
           </div>
           <button type="submit">Send Message</button>
         </form>
-      </main>
+      </div>
       <Footer />
     </div>
   );
